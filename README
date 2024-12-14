@@ -1,0 +1,10 @@
+#install dependencies
+
+pip install fastapi uvicorn sqlalchemy pydantic
+
+# run the app, the below command will start the uvi corn server
+
+uvicorn main:app --reload
+
+#for API testing here is a link to a PostMan collection
+undefined/workspace/todo-api-testing/collection/40035559-2a3bd01a-d16f-43be-a6c7-6bc2b300ae22?action=share&creator=40035559
